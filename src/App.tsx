@@ -1,11 +1,9 @@
-import React from 'react';
-
-function App() {
+const App = () => {
   return (
     <div>
-      <h1>Currency Converter</h1>
+      <h1 className='display-1'>Currency Converter</h1>
     </div>
   );
-}
+};
 
 export default App;
