@@ -3,7 +3,9 @@ import { BsArrowLeftRight } from 'react-icons/bs';
 const AmountInput = () => {
   return (
     <div>
-      <p>Amount</p>
+      <p>
+        <strong>Amount</strong>
+      </p>
       <div className='row'>
         <div className='col-10'>
           <input
@@ -13,7 +15,7 @@ const AmountInput = () => {
             aria-describedby='inputGroup-sizing-default'
           />
         </div>
-        <div className='col-2'>
+        <div className='col-2 text-end'>
           <BsArrowLeftRight
             size={40}
             onClick={() => {

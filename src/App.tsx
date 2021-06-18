@@ -28,6 +28,7 @@ const App = () => {
   return (
     <div className='container'>
       <h1 className='display-1 text-center'>Currency Converter</h1>
+      <br />
       <AmountInput />
       <br />
       {/* <CurrencySwitcher key={'from'} toCurrency={updateCurrency} />
@@ -37,8 +38,8 @@ const App = () => {
       <br />
       <button onClick={convert}>Convert</button> */}
       <Currencies />
-      <br />
-      <Currencies />
+      {/* <br />
+      <Currencies /> */}
       <br />
       <Convert />
     </div>
