@@ -1,9 +1,15 @@
+import classes from './Currencies.module.css';
+
 const Currencies = () => {
   return (
     <>
       <div className='dropdown row'>
         <div className='col-2'>
-          <img src='https://www.countryflags.io/be/flat/64.png' />
+          <img
+            src='https://www.countryflags.io/be/flat/64.png'
+            alt='country flags'
+            className={classes.img}
+          />
         </div>
         <button
           className='btn btn-secondary dropdown-toggle col-10 text-end'
